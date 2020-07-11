@@ -5,5 +5,4 @@ cd /var/www/html
 composer install
 chmod -R 777 storage
 php artisan key:generate
-php artisan queue:table
 php artisan migrate
